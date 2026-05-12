@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.scss';
 const Hero = () => {
   return (
     <section className={styles.hero} style={{
-      backgroundImage: `url(${process.env.NEXT_PUBLIC_BASE_PATH}/images/hero_img.png)`,
+      backgroundImage: `url(/images/hero_img.png)`,
     }}>
       <h2 className={styles.heroTitle}>
         {`< 송치원 >`}
