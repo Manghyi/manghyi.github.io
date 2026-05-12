@@ -33,6 +33,8 @@ jobs:
         run: yarn install --frozen-lockfile
       #- run: npm run build   # /out 폴더 생성됨
       - run: yarn build
+
+      - run: touch out/.nojekyll
  
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
