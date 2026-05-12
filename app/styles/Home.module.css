@@ -1,0 +1,102 @@
+/* styles/Home.module.css */
+.header {
+  background: #0070f3;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+
+  h1 {
+    width: 5.5rem;
+    padding: 0 1rem;  
+    background-color: #fff;
+    mask-image: radial-gradient(circle, white 60%, transparent 100%);
+    -webkit-mask-image: radial-gradient(circle, white 60%, transparent 100%);
+  }
+}
+
+.home {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+.hero {
+  font-weight: 800;
+  text-align: center;
+  padding: 50px 20px;
+  background: #f0f0f0;
+  background-image: url('/images/hero_img.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000;
+}
+
+.heroTitle {
+  flex-flow: column nowrap;
+  justify-content: center;
+  font-size: 3rem;
+  color: #0F172A;
+  margin-bottom: 1rem;
+}
+
+.heroSubTitle {
+  font-size: 2.5rem;
+  color: #1E3A8A;
+  line-height: 1.25;
+}
+
+.heroDivider {
+  margin: 2rem 0;
+  color: #0070f3;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+
+.heroMessage {
+  margin: 0 auto 2rem;
+  font-size: 1.25rem;
+  color: #475569;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.projectCard {
+  width: 300px;
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #0070f3;
+  color: white;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
