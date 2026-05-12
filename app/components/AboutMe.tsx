@@ -1,5 +1,5 @@
 // components/AboutMe.js
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Home.module.scss';
 
 const AboutMe = () => {
     return (

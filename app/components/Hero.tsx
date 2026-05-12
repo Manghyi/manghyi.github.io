@@ -1,9 +1,12 @@
 // components/Hero.js
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Home.module.scss';
+
 
 const Hero = () => {
   return (
-    <section className={styles.hero}>
+    <section className={styles.hero} style={{
+      backgroundImage: `url(${process.env.NEXT_PUBLIC_BASE_PATH}/images/hero_img.png)`,
+    }}>
       <h2 className={styles.heroTitle}>
         {`< 송치원 >`}
       </h2>

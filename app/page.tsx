@@ -5,7 +5,7 @@ import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from './components/Footer';
-import styles from './styles/Home.module.css';
+import styles from './styles/Home.module.scss';
 
 
 const Home = () => {

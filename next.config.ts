@@ -1,5 +1,5 @@
 import type { NextConfig } from "next";
-const repoName = "manghyi";
+export const repoName = "manghyi";
 const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig: NextConfig = {
@@ -8,6 +8,9 @@ const nextConfig: NextConfig = {
   assetPrefix: isProd ? `/${repoName}/` : "",
   images: {
     unoptimized: true,     // ✅ next/image 사용 시 필수
+  },
+   env: {
+    NEXT_PUBLIC_BASE_PATH: isProd ? `/${repoName}` : "",
   },
 };
 

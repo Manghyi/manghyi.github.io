@@ -1,5 +1,5 @@
 // components/Projects.js
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Home.module.scss';
 import ProjectCard from './ProjectCard';
 
 const projects = [

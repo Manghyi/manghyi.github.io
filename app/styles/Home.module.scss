@@ -1,4 +1,4 @@
-/* styles/Home.module.css */
+/* styles/Home.module.scss */
 .header {
   position: sticky;
   top: 0;
@@ -43,7 +43,6 @@
   text-align: center;
   padding: 50px 20px;
   background: #f0f0f0;
-  background-image: url('/images/hero_img.png');
   background-size: cover;
   background-repeat: no-repeat;
   color: #000;
@@ -121,7 +120,7 @@
     }
   }
 
-  
+
 
   >div>div:nth-child(1)>p:nth-child(1) {
     width: 1.2rem;

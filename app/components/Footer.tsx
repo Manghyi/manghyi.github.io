@@ -1,5 +1,5 @@
 // components/Footer.js
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Home.module.scss';
 
 const Footer = () => {
   return (

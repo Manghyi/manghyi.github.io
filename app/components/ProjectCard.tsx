@@ -1,5 +1,5 @@
 // components/ProjectCard.js
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Home.module.scss';
 
 interface ProjcetType {
   title: string,
