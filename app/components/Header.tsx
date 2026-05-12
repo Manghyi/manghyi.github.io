@@ -7,10 +7,10 @@ const Header = () => {
       <h1><img src="/images/my_logo.png" /></h1>
       <nav>
         <ul className={styles.navList}>
-          <li><a href="#AboutMe" >About Me</a></li>
-          <li><a href="#Skills">Skills</a></li>
-          <li><a href="#Projects">Projects</a></li>
-          <li><a href="#Career">Career</a></li>
+          <li><a href="#aboutMe" >About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          {/* <li><a href="#Career">Career</a></li> */}
         </ul>
       </nav>
     </header>
