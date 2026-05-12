@@ -7,10 +7,9 @@ const Header = () => {
       <h1><img src="/images/my_logo.png" /></h1>
       <nav>
         <ul className={styles.navList}>
-          <li>홈</li>
-          <li>프로젝트</li>
-          <li>블로그</li>
-          <li>연락처</li>
+          <li><a href="#AboutMe" >About Me</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Skills">Skills</a></li>
         </ul>
       </nav>
     </header>

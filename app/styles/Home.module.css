@@ -1,5 +1,7 @@
 /* styles/Home.module.css */
 .header {
+  position: sticky;
+  top: 0;
   background: #0070f3;
   color: white;
   padding: 20px;
@@ -69,6 +71,46 @@
   margin: 0 auto 2rem;
   font-size: 1.25rem;
   color: #475569;
+}
+
+.aboutMe {
+  padding: 4rem 1.5rem;
+  background: #fff;
+  color: #000;
+
+  > h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+}
+
+.aboutMeMain {
+  padding: 0 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 16px 0;
+
+  > div {
+    width: 30%;
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  > div > div:nth-child(1) > p:nth-child(1) {
+    width: 1.2rem;
+    height: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  > div > div:nth-child(2) > p:nth-child(1) {
+    font-size: 1.2rem;
+    margin-bottom: 0.4rem;
+  }
 }
 
 .projects {
