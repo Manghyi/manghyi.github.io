@@ -35,6 +35,8 @@
   gap: 24px;
 }
 
+/* ////hero//// */
+
 .hero {
   font-weight: 800;
   text-align: center;
@@ -72,6 +74,8 @@
   font-size: 1.25rem;
   color: #475569;
 }
+
+/* ////aboutMe//// */
 
 .aboutMe {
   padding: 4rem 1.5rem;
@@ -112,6 +116,59 @@
     margin-bottom: 0.4rem;
   }
 }
+
+/* ////skills//// */
+
+.skills {
+  padding: 50px 20px;
+  background: #0070f3;
+
+  > h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+}
+
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  padding: 2rem;
+  background-color: #2c8eff;
+  box-shadow: 1rem 1rem 1rem 0 rgba(68, 68, 68, .2);
+  border-radius: 1rem;
+}
+
+.skillCategory {
+  display: flex;
+  align-items: flex-start;
+
+  > div {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    flex-shrink: 0;
+
+    img {
+      width: 1.6rem;
+    }
+
+    & > p:nth-child(2) {
+      font-size: 1.4rem;
+    }
+  }
+}
+
+.skillItemList {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+}
+
+/* ////projects//// */
 
 .projects {
   display: flex;
