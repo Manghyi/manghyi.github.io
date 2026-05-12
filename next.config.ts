@@ -4,8 +4,7 @@ const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig: NextConfig = {
   output: "export",          // 정적 export
-  basePath: isProd ? `/${repoName}` : "", 
-  assetPrefix: isProd ? `/${repoName}/` : "",
+  basePath: isProd ? `/${repoName}` : "",
   images: {
     unoptimized: true,     // ✅ next/image 사용 시 필수
   },
