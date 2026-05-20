@@ -1,6 +1,6 @@
-:HL["/_next/static/chunks/0ivjp3.tu.-30.css","style"]
-:HL["/_next/static/media/797e433ab948586e-s.p.0.q-h669a_dqa.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/media/caa3a2e1cccd8315-s.p.16t1db8_9y2o~.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/chunks/0hzqbmyvcj.xc.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.09zddjkbdep5a.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.09~u27dqhyhd6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/chunks/16djs3q6krnc5.css","style"]
 :HL["/images/my_logo.png","image"]
 :HL["/icons/name.fa083cfb.svg","image"]
@@ -16,6 +16,8 @@
 :HL["/images/Stockfolio.png","image"]
 :HL["/images/img_logo_236_black.svg","image"]
 :HL["/images/omegabox.png","image"]
+:HL["/images/Tomato.png","image"]
+:HL["/images/BookFinder.png","image"]
 :HL["/images/ediya.jpg","image"]
 :HL["/images/miso.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"tzYHPYfbpUevthg2z1-a1"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"eqgd-Upccqp7g69rjvj1E"}

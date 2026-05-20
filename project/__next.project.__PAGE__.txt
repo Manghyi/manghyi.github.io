@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[97367,["/_next/static/chunks/0dbhjjzl8qfwv.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"children":[["$","div",null,{"children":["$","img",null,{"src":""}]}],["$","h2",null,{"children":"프로젝트"}],["$","div",null,{"children":[["$","h3",null,{"children":"프로젝트 기간"}],["$","p",null,{"children":"2026.01.01 - 2026.04.01"}]]}],["$","div",null,{"children":[["$","h3",null,{"children":"설명"}],["$","p",null,{"children":"이 프로젝트는..."}]]}],["$","div",null,{"children":[["$","h3",null,{"children":"스펙"}],["$","ul",null,{"children":[["$","li",null,{"children":["$","p",null,{"children":"React"}]}],["$","li",null,{"children":["$","p",null,{"children":"SASS"}]}]]}]]}],["$","div",null,{"children":[["$","h3",null,{"children":"Link"}],["$","ul",null,{"children":["$","li",null,{"children":[["$","p",null,{"children":"Github"}],["$","p",null,{"children":"https://..."}]]}]}]]}]]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"eqgd-Upccqp7g69rjvj1E"}
+4:null
