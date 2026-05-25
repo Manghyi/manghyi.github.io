@@ -4,7 +4,6 @@ import Hero from './components/Hero';
 import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-import Footer from './components/Footer';
 import styles from './styles/Home.module.scss';
 
 
@@ -18,7 +17,6 @@ const Home = () => {
         <Skills />
         <Projects />
       </main>
-      <Footer />
     </>
   );
 }

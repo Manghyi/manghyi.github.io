@@ -1,8 +1,5 @@
 /* styles/Home.module.scss */
 .header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
   background: #0070f3;
   color: white;
   padding: 20px;
@@ -236,13 +233,6 @@
 
 .projectCardDescription {
   margin-bottom: 10px;
-}
-
-.projectCardDescription p {
-  max-height: 100px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  word-break: break-all;
 }
 
 .projectCardImage {
