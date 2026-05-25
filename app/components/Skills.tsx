@@ -13,12 +13,14 @@ const skillsData: SkillType[] = [
         list: ["Javascript", "Typescript"],
     },
     {
-        name: "Fontend",
+        name: "Frontend",
         icon: "/icons/frontend.png",
         list: [
             "Next.js/React",
             "React-Query",
-            "React-Saga",
+            "Redux",
+            "Redux-Saga",
+            "MobX",
             "Scss",
             "styled-components",
             "emotion css",
@@ -39,7 +41,7 @@ const Skills = () => {
                     {skillsData.map(skill => (
                         <li key={skill.name} className={styles.skillCategory}>
                             <div>
-                                <p>
+                                <p className="bg-white p-1 rounded-sm">
                                     <img src={skill.icon} />
                                 </p>
                                 <p>{skill.name}</p>
