@@ -3,7 +3,7 @@
 // components/Header.ts
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import styles from '../styles/Home.module.scss';
+import styles from '../../styles/Home.module.scss';
 
 const Header = () => {
   const router = useRouter();
