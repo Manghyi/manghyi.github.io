@@ -8,4 +8,4 @@
 :HL["/icons/phone.0b0f8955.svg","image"]
 :HL["/icons/email.f8008661.svg","image"]
 :HL["/icons/education.svg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"398kv33ehtrwv4Y42ai53"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"JiCyZKTOi2wgqb-ysAu_t"}
