@@ -265,9 +265,10 @@
 
 .skills {
   --skill-ink: #142238;
-  --skill-muted: #65748b;
+  --skill-muted: #757f8d;
   --skill-accent: #3979ed;
   --skill-border: #e3eaf3;
+  --skill-dark-accent: #d3dff5;
 
   width: 100%;
   margin: 0;
@@ -297,7 +298,7 @@
     text-align: left;
 
     span {
-      color: var(--skill-accent);
+      color: var(--skill-dark-accent);
     }
   }
 }
@@ -306,7 +307,7 @@
   display: flex;
   align-items: center;
   gap: 9px;
-  color: var(--skill-accent);
+  color: var(--skill-dark-accent);
   font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.15em;
@@ -322,7 +323,7 @@
   margin-bottom: 3px;
   font-size: 13px;
   line-height: 1.7;
-  color: var(--skill-muted);
+  color: white;
   text-align: right;
   word-break: keep-all;
 }
