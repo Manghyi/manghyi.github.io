@@ -38,7 +38,7 @@ const skillsData: SkillGroup[] = [
       "Pixt의 콘텐츠 검색·상세 화면과 Pixt AI의 영상 제작 인터페이스를 구현했습니다.",
     projects: [
       { name: "Pixt", href: "/projects/pixt" },
-      { name: "Pixt AI", href: "/project/pixt-ai" },
+      { name: "Pixt AI", href: "/projects/pixt-ai" },
     ],
   },
   {
@@ -99,7 +99,7 @@ const skillsData: SkillGroup[] = [
     experience:
       "Pixt AI의 Clip 기반 미리보기와 Timeline 동기화, Pixt의 가상화 무한 스크롤을 구현했습니다.",
     projects: [
-      { name: "Pixt AI", href: "/project/pixt-ai" },
+      { name: "Pixt AI", href: "/projects/pixt-ai" },
       { name: "Pixt", href: "/projects/pixt" },
     ],
   },
@@ -186,7 +186,7 @@ export default function Skills() {
                     {skill.projects.map((project) => (
                       <Link
                         key={project.href}
-                        href={`${basePath}${project.href}`}
+                        href={project.href}
                       >
                         {project.name}
                         <span aria-hidden="true">↗</span>

@@ -100,12 +100,12 @@ function SecondaryProjectCard({
 }) {
   return (
     <article className={styles.standardCard}>
-      <Link href={`${basePath}${project.href}`} className={styles.standardLink} aria-label={`${project.title} 프로젝트 상세 보기`}>
+      <Link href={project.href} className={styles.standardLink} aria-label={`${project.title} 프로젝트 상세 보기`}>
         <div className={`${styles.standardVisual} ${project.id === "pixt" ? styles.pixtVisual : styles.cloudVisualWrap}`}>
           {project.id === "pixt" ? (
             <>
               <Image
-                src={`${basePath}/images/pixt-home.png`}
+                src={`/images/pixt-home.png`}
                 alt="Pixt 메인 홈 화면: 영상 카테고리와 콘텐츠 썸네일 그리드"
                 fill
                 sizes="(max-width: 680px) 100vw, 480px"
@@ -151,7 +151,7 @@ export default function Projects() {
         </header>
 
         <article className={styles.featuredCard}>
-          <Link href={`${basePath}/projects/pixt-ai`} className={styles.featuredLink} aria-label="Pixt AI 프로젝트 상세 보기">
+          <Link href={`/projects/pixt-ai`} className={styles.featuredLink} aria-label="Pixt AI 프로젝트 상세 보기">
             <div className={styles.featuredCopy}>
               <div className={styles.featuredTopline}><span className={styles.featuredIndex}>01 / FEATURED PROJECT</span><span className={styles.featuredCategory}>AI VIDEO EDITOR</span></div>
               <div className={styles.featuredMain}>
